@@ -34,6 +34,8 @@ int main(int argc, char *argv[]){
     dynamicLeaks(string);
     
     free(string);
+    string = NULL;
+    
     return 0;
 }
 
